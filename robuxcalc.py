@@ -1,6 +1,6 @@
 import requests, time
 
-total = 0
+total = 10000
 cookie = str(input("Enter your cookie: "))
 
 with requests.Session() as session:
